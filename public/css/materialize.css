@@ -1,0 +1,72 @@
+.form-mateialize{
+    position: relative;
+}
+
+.form-mateialize label{
+    left: 20px;
+    top: 5px;
+    position: absolute;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.form-mateialize .controls{
+    background: #f7f7f7;
+    padding-top: 10px;
+}
+
+.form-mateialize input,.form-mateialize select{
+    background: transparent;
+    padding-top: 20px;
+}
+
+
+.form-mateialize .form-control{
+    height: auto;
+    border: 0px;
+    border-bottom: 3px solid rgba(0,0,0,.25);
+}
+
+.form-mateialize .form-control:focus {
+    color: #4F5467;
+    background-color: transparent;
+    border-color: #2962FF;
+}
+
+.error .form-control[required='required'] {
+    border-color: #f62d51;
+}
+
+.validate .form-control{
+    border-bottom: 3px solid #36bea6;
+}
+
+.help-block{
+    background: #fff;
+}
+
+.list-scroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.list-scroll::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.list-scroll::-webkit-scrollbar-button:increment,.list-client::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.list-scroll::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.list-scroll::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.list-scroll::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
